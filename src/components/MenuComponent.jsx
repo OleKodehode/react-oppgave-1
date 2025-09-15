@@ -5,7 +5,7 @@ export default function MenuComponent(props) {
   const { menu } = props;
   return (
     <>
-      <p className={styles.subTitle}>Forretter</p>
+      <h2 className={styles.subTitle}>Forretter</h2>
       <ul className={styles.menuContainer}>
         {menu
           .filter((dish) => dish.kategori === "Forrett")
@@ -13,7 +13,7 @@ export default function MenuComponent(props) {
             <DishComponent key={dish.id} {...dish} />
           ))}
       </ul>
-      <p className={styles.subTitle}>Hovedretter</p>
+      <h2 className={styles.subTitle}>Hovedretter</h2>
       <ul className={styles.menuContainer}>
         {menu
           .filter((dish) => dish.kategori === "Hovedrett")
@@ -21,7 +21,7 @@ export default function MenuComponent(props) {
             <DishComponent key={dish.id} {...dish} />
           ))}
       </ul>
-      <p className={styles.subTitle}>Desserter</p>
+      <h2 className={styles.subTitle}>Desserter</h2>
       <ul className={styles.menuContainer}>
         {menu
           .filter((dish) => dish.kategori === "Dessert")
