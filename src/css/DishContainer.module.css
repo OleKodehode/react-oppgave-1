@@ -1,12 +1,11 @@
 .card {
   background-color: hsl(0, 70%, 95%);
   color: hsl(0, 0%, 10%);
+  outline: 5px solid hsl(35, 80%, 50%);
   padding: 2rem;
   border-radius: 20px;
   position: relative;
   transition: all 0.3s ease;
-  box-shadow: 5px 5px 10px hsl(0, 0%, 0%);
-  outline: 2px solid black;
 }
 
 .card:hover {
@@ -39,4 +38,11 @@
   color: hsl(0, 0%, 20%);
   font-style: italic;
   text-decoration: underline;
+}
+
+@media (prefers-color-scheme: light) {
+  .card {
+    box-shadow: 5px 5px 10px hsl(0, 0%, 0%);
+    outline: 2px solid black;
+  }
 }

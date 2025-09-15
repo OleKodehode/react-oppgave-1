@@ -7,7 +7,11 @@ export default function DishComponent(dish) {
         <p className={styles.category}>{dish.kategori}</p>
         <p className={styles.title}>{dish.tittel}</p>
         <p className={styles.price}>{dish.pris}</p>
-        <p className={styles.ingredients}>{dish.ingredienser}</p>
+        <p className={styles.ingredients}>
+          Inneholder:
+          <br />
+          {dish.ingredienser}
+        </p>
       </li>
     </>
   );
