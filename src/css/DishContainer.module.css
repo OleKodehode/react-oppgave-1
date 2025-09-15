@@ -1,0 +1,41 @@
+.kategori {
+  background-color: hsl(0, 70%, 95%);
+  color: hsl(0, 0%, 10%);
+  padding: 2rem;
+  border-radius: 20px;
+  position: relative;
+  transition: all 0.3s ease;
+  box-shadow: 5px 5px 10px hsl(0, 0%, 0%);
+  outline: 2px solid black;
+}
+
+.kategori:hover {
+  transform: translateY(-5px);
+}
+
+.title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.price {
+  font-size: 1.25rem;
+}
+
+.ingredients {
+  color: hsl(0, 0%, 20%);
+  font-size: 0.9rem;
+  margin-top: 3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.category {
+  position: absolute;
+  right: 1rem;
+  top: 0.1rem;
+  font-size: 0.8rem;
+  color: hsl(0, 0%, 20%);
+  font-style: italic;
+}
