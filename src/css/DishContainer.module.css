@@ -1,4 +1,4 @@
-.kategori {
+.card {
   background-color: hsl(0, 70%, 95%);
   color: hsl(0, 0%, 10%);
   padding: 2rem;
@@ -9,7 +9,7 @@
   outline: 2px solid black;
 }
 
-.kategori:hover {
+.card:hover {
   transform: translateY(-5px);
 }
 
@@ -38,4 +38,5 @@
   font-size: 0.8rem;
   color: hsl(0, 0%, 20%);
   font-style: italic;
+  text-decoration: underline;
 }
