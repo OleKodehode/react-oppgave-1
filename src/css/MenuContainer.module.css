@@ -10,6 +10,7 @@
   font-size: 2rem;
   font-weight: bold;
   font-style: italic;
+  margin-top: 3rem;
 }
 
 @media only screen and (max-width: 900px) {

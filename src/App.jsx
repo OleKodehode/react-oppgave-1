@@ -17,8 +17,19 @@ function App() {
 
   return (
     <>
-      <h1 className="companyName">{companyName}</h1>
-      {<MenuComponent menu={meny} />}
+      <header>
+        <h1 className="companyName">{companyName}</h1>
+      </header>
+      <main>{<MenuComponent menu={meny} />}</main>
+      <footer>
+        <a
+          href="https://www.flaticon.com/free-icons/restaurant"
+          title="Restaurant Icon on flaticon.com"
+          className="attribution"
+        >
+          Restaurant favicon created by Freepik - Flaticon
+        </a>
+      </footer>
     </>
   );
 }
